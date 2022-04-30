@@ -16,6 +16,6 @@ public class Login_Applications {
         driver.findElement(By.id("__xmlview4--mainTree-rows-row0-treeicon")).click();
         //Desplegamos Company
         driver.findElement(By.id("__xmlview4--mainTree-rows-row1-treeicon")).click();
-        Thread.sleep(4500);
+        Thread.sleep(2500);
     }
 }
