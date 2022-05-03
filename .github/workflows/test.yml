@@ -48,7 +48,10 @@ jobs:
           release: '18'
       - name : ver rutas
         run : cd /home/runner/work/_actions/actions/
+        
       - name : ruta
         run : ls
+      - name : src
+        run : cd src/
     
   
