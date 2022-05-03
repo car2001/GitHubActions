@@ -46,6 +46,7 @@ jobs:
         uses: oracle-actions/setup-java@v1.1.1
         with:
           release: '18'
-      - name : mvn -B package --file pom.xml test
+      - name : Build with Maven
+        run : mvn -B package --file pom.xml test
     
   
