@@ -29,18 +29,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build Maven Project
-        run: mvn -B package --file pom.xml
+        run: mvn test --file pom.xml
            
-  test_1:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up JDK
-        uses: oracle-actions/setup-java@v1.1.1
-        with:
-          release: '18'
-      - name : ver rutas
-        run : javac Challenge.java
         
         
     
