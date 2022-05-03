@@ -47,7 +47,7 @@ jobs:
         with:
           release: '18'
       - name : ver rutas
-        run : cd /home/runner/work/_actions/actions/src/test/java
+        run : cd /home/runner/work/_actions/actions/src/
       - name : ruta
         run : ls
     
