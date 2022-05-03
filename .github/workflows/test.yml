@@ -45,7 +45,7 @@ jobs:
       - name : ruta
         run : ls
       - name : src
-        run : cd src/
+        run : pwd
       - name : test
         run : ls
         
