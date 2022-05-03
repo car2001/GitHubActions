@@ -47,8 +47,8 @@ jobs:
         with:
           release: '18'
       - name : ver rutas
-        run : cd GitHubActions/src/test/java/
+        run : cd /home/runner/work/_actions/actions/
       - name : ruta
-        run : pwd
+        run : ls
     
   
