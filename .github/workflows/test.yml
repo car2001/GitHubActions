@@ -30,14 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build Maven Project
         run: mvn -B package --file pom.xml
-        
-
-      - uses: browser-actions/setup-chrome@latest
-      - name : Intall Chrome
-        run : chrome --version
-
-      
-      
+           
   test_1:
     runs-on: ubuntu-latest
     steps:
@@ -53,5 +46,9 @@ jobs:
         run : ls
       - name : src
         run : cd src/
+      - name : test
+        run : ls
+        
+        
     
   
