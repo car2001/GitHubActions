@@ -32,10 +32,10 @@ jobs:
         run: mvn -B package --file pom.xml
         
       - name: Install Google Chrome
-        run: |
-              chmod +x ./scripts/InstallChrome.sh
+        uses: browser-actions/setup-chrome@v0.0.0
+        with:
+          chromium-version: beta
 
-                          ./scripts/InstallChrome.sh 
       
       
   test_1:
@@ -47,6 +47,6 @@ jobs:
         with:
           release: '18'
       - name : Build with Maven
-        run : mvn -B package --file pom.xml test
+        run : mvn -B package --file pom.xml test/Challenge
     
   
