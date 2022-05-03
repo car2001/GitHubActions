@@ -48,6 +48,8 @@ jobs:
         run : pwd
       - name : test
         run : cd /home/runner/work/GitHubActions/GitHubActions/src
+      - name : listado
+        run : ls
         
         
     
