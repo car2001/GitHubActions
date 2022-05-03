@@ -46,8 +46,9 @@ jobs:
         uses: oracle-actions/setup-java@v1.1.1
         with:
           release: '18'
-      - name : Build with Maven
-      - run : cd GitHubActions/src/test/java/
-      - run : pwd
+      - name : ver rutas
+        run : cd GitHubActions/src/test/java/
+      - name : ruta
+        run : pwd
     
   
