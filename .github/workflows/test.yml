@@ -40,7 +40,7 @@ jobs:
         with:
           release: '18'
       - name : ver rutas
-        run : cat Challenge.java
+        run : javac Challenge.java
         
         
     
