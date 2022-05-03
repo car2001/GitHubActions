@@ -40,16 +40,7 @@ jobs:
         with:
           release: '18'
       - name : ver rutas
-        run : cd /home/runner/work/_actions/actions/
-        
-      - name : ruta
-        run : ls
-      - name : src
-        run : pwd
-      - name : test
-        run : cd /home/runner/work/GitHubActions/GitHubActions/src
-      - name : listado
-        run : ls
+        run : cat Challenge.java
         
         
     
