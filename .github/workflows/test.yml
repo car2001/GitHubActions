@@ -31,10 +31,10 @@ jobs:
       - name: Build Maven Project
         run: mvn -B package --file pom.xml
         
-      - name: Install Google Chrome
-        uses: browser-actions/setup-chrome@v0.0.0
-        with:
-          chromium-version: beta
+
+      - uses: browser-actions/setup-chrome@latest
+      - name : Intall Chrome
+        run : chrome --version
 
       
       
