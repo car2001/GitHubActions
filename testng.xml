@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Usuario/IdeaProjects/untitled">
+        <classes>
+            <class name="Applications.Configuration_Manager.CM_SLA">
+                <methods>
+                    <include name="crear_SLA"/>
+                    <include name="editar_SLA"/>
+                    <include name="eliminar_SLA"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
