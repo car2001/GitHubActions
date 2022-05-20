@@ -7,7 +7,6 @@
                 <methods>
                     <include name="crear_SLA"/>
                     <include name="editar_SLA"/>
-                    <include name="eliminar_SLA"/>
                 </methods>
             </class>
         </classes>
