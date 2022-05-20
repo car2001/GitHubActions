@@ -28,7 +28,7 @@ jobs:
           release: '18'
 
       # Runs a set of commands using the runners shell
-      - name: Build Maven Project
+      - name: Correr Test
         run:  mvn clean -DtestSuite="testng.xml" test
            
         
